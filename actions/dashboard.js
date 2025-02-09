@@ -52,7 +52,10 @@ export async function getIndustryInsights(){
         const user = await db.user.findUnique({
             where:{
                 clerkUserId:userId,
-            }
+            },
+            include: {
+                industryInsight: true,
+              },
         });
     
         if(!user) throw new Error ("User Not Found");
