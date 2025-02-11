@@ -184,7 +184,7 @@ const OnBoardingForm = ({ industries }) => {
                 <p className="text-sm text-red-500">{errors.bio.message}</p>
               )}
             </div>
-            <Button type="submit" className="w-full" disabled={updateLoading}>
+            <Button type="submit" className="w-full mt-5" disabled={updateLoading}>
             {updateLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />

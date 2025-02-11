@@ -48,7 +48,6 @@ const Header = async() => {
               </Button>
             </Link>
 
-            {/* Growth Tools Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button className="flex items-center gap-2">
@@ -76,7 +75,7 @@ const Header = async() => {
                 <DropdownMenuItem asChild>
                   <Link href="/interview" className="flex items-center gap-2">
                     <GraduationCap className="h-4 w-4" />
-                    Interview Prep
+                    Interview Preparation
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>

@@ -1,7 +1,7 @@
 import { industries } from "@/data/industries"
 import OnBoardingForm from "./_components/on-boarding-form"
-import { getUserOnBoardingStatus } from "@/actions/user";
 import { redirect } from "next/navigation";
+import { getUserOnBoardingStatus } from "@/actions/user";
 
 
 const OnBoardingPage = async() => {
